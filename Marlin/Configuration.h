@@ -1499,7 +1499,7 @@
 
 /**
  * Use Pin 27 adapter (on the EXP port) for probe (and BEEPER).
- * Also enable USE_PROBE_FOR_Z_HOMING for older BLTouch/3DTouch
+ * Also enable USE_PROBE_FOR_Z_HOMING for older /3DTouch
  * connected to Z_MIN_PIN.
  */
 //#define USE_PIN_27_BOARD
@@ -1542,7 +1542,7 @@
 #endif
 
 /**
- * The BLTouch probe uses a Hall effect sensor and emulates a servo.
+ * The  probe uses a Hall effect sensor and emulates a servo.
  */
 #define BLTOUCH
 
